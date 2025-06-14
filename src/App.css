@@ -1,0 +1,136 @@
+#root {
+  max-width: max-content;
+  max-height: max-content;
+  margin: 0; 
+  padding: 0;
+  text-align: center; 
+
+}
+a{
+  font-weight: 500;
+  text-decoration: inherit;
+}
+.headerList{
+  padding: 0;
+  position:absolute;
+  display: flex;
+  margin: 0; 
+  top: 0;
+  width: 100%;
+  background-color: hsla(0, 0%, 43%, 0.463); 
+
+  list-style-type: none;
+  justify-content: center;
+}
+.tab{
+  
+  padding: 2rem;
+  color: hsl(0, 0%, 100%);
+}
+.tab a span:hover{
+  background-color: white;
+  color:  hsl(0, 0%, 19%);
+  padding: 1rem;
+  border-radius: 10%;
+  transition: all 0.5s ease-in-out;
+
+}
+.tab a span{
+  color: hsl(0, 0%, 100%);
+}
+.word {
+  position:absolute;
+  top: 250px;
+  margin-left: 50px; 
+  color: white;
+  font: 700 normal 2.5em 'tahoma';
+  text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
+}
+.titleName {
+  position:absolute;
+  margin-left: 100px; 
+}
+.pinnedCard{
+  background: hsl(286, 27%, 19%);
+  color: white;
+  border-radius: 10px;
+  padding: 1.2rem;
+  width: 490px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.5s ease-in-out;
+}
+.pinnedCard
+#cardImage{
+  visibility: hidden;
+  overflow: hidden;
+
+}
+.pinnedCard:hover{
+  cursor:pointer;
+  background: hsl(51, 91%, 32%);
+  width: 590px;
+  height: 250px;
+  justify-self: center;
+}
+.pinnedCard:hover
+#cardImage{
+  align-self: center;
+  visibility: visible;
+  width: fit-content;
+  height: fit-content; 
+
+  justify-content: center;
+}
+.project-card{
+  background-color: teal;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  border: 1rem;
+  color: white;
+  border-radius: 10px;
+  padding: 1.2rem;
+  width: 490px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+}
+.card-header
+h1{
+  color: white;
+  cursor: pointer;
+  font-size: 24px;
+  width:fit-content
+}
+.card-header
+h3{
+  font-size: 14px;
+  width: fit-content;
+}
+.details{
+  display: flex;
+}
+@media (max-width: 600px) {
+  .titleName {
+    margin-left: 0;
+    max-width: 100%;
+    flex-direction: column;
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+  .pinnedCard{
+    max-width: 100%;
+    max-height: fit-content;
+    width: 400px;
+  } 
+  .pinnedCard:hover{
+    max-width: 100%;
+    max-height: fit-content;
+    width: 400px;
+  }
+}
+
