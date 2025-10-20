@@ -14,7 +14,7 @@ function Header(){
                 </a>
             </li>
             <li className = 'tab'>
-            <a href="./assets/Resume.pdf" target='_blank'> 
+            <a href={resume} target='_blank'> 
                 <span>Resume</span>
                 </a>            </li>
             <li className = 'tab'>
