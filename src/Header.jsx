@@ -1,4 +1,5 @@
 import './App.css'
+import resume from './assets/Resume.pdf';
 
 function Header(){
     return(<>
