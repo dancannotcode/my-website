@@ -13,7 +13,7 @@ function Header(){
                 </a>
             </li>
             <li className = 'tab'>
-            <a href="src\assets\Resume.pdf" target='_blank'>
+            <a href="/assets/Resume.pdf" target='_blank'> 
                 <span>Resume</span>
                 </a>            </li>
             <li className = 'tab'>
