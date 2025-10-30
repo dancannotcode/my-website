@@ -26,7 +26,7 @@ h1 {
   line-height: 1.1;
 } 
 #main-page-photo{
-  position: fixed; 
+  position: absolute; 
   height: 680px;
   bottom: 0;
   right: 0;
@@ -39,6 +39,8 @@ h1 {
     
     -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat;
+  
+  overflow: hidden;
 }
 .contact-body { 
   width: 100vw;
@@ -130,6 +132,9 @@ span{
   }
 }
 @media (max-width: 600px){
+  #main-page-photo{
+    visibility: hidden;
+  }
   .email-details{
     width: 500px;
   }

@@ -14,7 +14,7 @@ function Header(){
                 </a>
             </li>
             <li className = 'tab'>
-            <a href={resume} target='_blank'> 
+            <a href={resume} target='_blank'  rel="noopener noreferrer"> 
                 <span>Resume</span>
                 </a>            </li>
             <li className = 'tab'>
